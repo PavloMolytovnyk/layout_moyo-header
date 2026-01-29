@@ -1,14 +1,17 @@
 body {
   --header-height: 60px;
+
   margin: 0;
   font-family: Roboto, sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
 }
+
 :root {
   --blue-color: #00acdc;
 }
+
 header {
   display: flex;
   align-items: center;
@@ -17,10 +20,12 @@ header {
   padding-inline: 50px;
   box-sizing: border-box;
 }
+
 a.is-active {
   position: relative;
   color: var(--blue-color);
 }
+
 ul {
   display: flex;
   gap: 20px;
@@ -28,6 +33,7 @@ ul {
   padding: 0;
   list-style: none;
 }
+
 a {
   color: black;
   display: flex;
@@ -35,12 +41,15 @@ a {
   height: var(--header-height);
   text-transform: uppercase;
 }
+
 a:link {
   text-decoration: none;
 }
+
 a:hover {
   color: var(--blue-color);
 }
+
 a.is-active::after {
   content: '';
   position: absolute;
