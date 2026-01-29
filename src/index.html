@@ -16,23 +16,35 @@
       href="./style.css"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
     />
   </head>
   <body>
     <header>
-      <img src="./images/logo.png" alt="Logo">
+      <a href="#">
+        <img
+          src="./images/logo.png"
+          alt="Logo"
+        />
+      </a>
       <nav>
-        <ul class="ul">
-          <a class="is-active">APPLE <div class="div"></div></a>
-          <a class="a2">SAMSUNG</a>
-          <a class="a3">SMARTPHONES</a>
-          <a class="a4" data-qa="hover">LAPTOPS & COMPUTERS</a>
-          <a class="a5">GADGETS</a>
-          <a class="a6">TABLETS</a>
-          <a class="a7">PHOTO</a>
-          <a class="a8">VIDEO</a>
+        <ul>
+          <li class="first"><a class="is-active">apple</a></li>
+          <li><a>samsung</a></li>
+          <li><a>smartphones</a></li>
+          <li>
+            <a
+              class="a4"
+              data-qa="hover"
+            >
+              laptops & computers
+            </a>
+          </li>
+          <li><a>gadgets</a></li>
+          <li><a>tablets</a></li>
+          <li><a>photo</a></li>
+          <li class="last"><a>video</a></li>
         </ul>
       </nav>
     </header>
